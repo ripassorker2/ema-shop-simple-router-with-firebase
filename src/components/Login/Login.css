@@ -1,0 +1,42 @@
+.form-container {
+  width: 400px;
+  box-shadow: 1px 1px 8px black;
+
+  padding: 25px;
+  margin: 30px auto;
+  border: 2px solid rebeccapurple;
+}
+.form-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: gray;
+}
+.from-control {
+  display: flex;
+  margin-bottom: 18px;
+  flex-direction: column;
+}
+
+.from-control label {
+  font-size: 20px;
+  color: gray;
+}
+.from-control input {
+  padding: 8px;
+  margin-top: 7px;
+}
+.form-btn {
+  width: 100%;
+  color: white;
+  background-color: crimson;
+  border-radius: 14px;
+  padding: 8px 12px;
+}
+.google-login button {
+  width: 100%;
+  color: white;
+  background-color: deeppink;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
