@@ -24,16 +24,16 @@ const Header = () => {
         ) : (
          
         )} */}
-        {user?.email && <a href="/">{user.email}</a>}
+        {user?.email && <Link href="/">{user.email}</Link>}
         {user?.uid ? (
-          <a href="/">
+          <Link to={'/'}>
             <button onClick={handleLogOut}>Sign Out</button>
-          </a>
+          </Link>
         ) : (
-          <Link>
+          <>
             <Link to="/resister">Resister</Link>
             <Link to="/login">Login</Link>
-          </Link>
+          </>
         )}
       </div>
     </nav>
